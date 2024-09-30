@@ -30,12 +30,23 @@ public class POE {
         lastName = ss.next();
         
          
+        
+         public class  Main {
+    public static void main(String[] args) {
+        // Register a new user
+        Login user = new Login("user_", "Password123!", "John", "Doe");
+
+        // Attempt to log in with the correct username and password
+        String loginMessage = user.returnLoginStatus("user_", "Password123!");
+
+        // Print the login message to the console
+        System.out.println(loginMessage);  // This will show the welcome message
+    }
+}
+  
            
         
         
         
-        System.out.println("Name :" + username + "\nPassword :" + password + "\nName :" + firstName + "\nName" + lastName);
-        
-        }
-       
+      
 }
