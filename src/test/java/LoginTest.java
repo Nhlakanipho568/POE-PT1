@@ -30,12 +30,16 @@ public class LoginTest {
     @BeforeEach
     public void setUp() {
     }
+
+    @org.junit.After
+    public void tearDown() throws Exception {
+    }
     
     @AfterEach
-    public void te    /**
+       /**
      * Test of checkUserName method, of class Login.
      */
-    @Test
+    
     public void testCheckUserName() {
         System.out.println("checkUserName");
         Login instance = null;
@@ -106,7 +110,6 @@ public class LoginTest {
         fail("The test case is a prototype.");
     }
 
-arDown() {
-    }
+
     
 }
