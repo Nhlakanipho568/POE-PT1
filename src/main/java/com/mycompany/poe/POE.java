@@ -11,31 +11,44 @@ import java.util.Scanner;
 
 public class POE {
 
-    public static void main(String[] args) {
+    
         
     
-         
-
-public class Main {
+       public class LoginSystem {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        // Create a Login object with sample data
-        Login user = new Login("user_1", "Password1!", "John", "Doe");
-        
-        // Register the user and display the registration message
-        String registrationMessage = user.registerUser();
-        System.out.println(registrationMessage);
-        
+        printLoginMessage();
+        //object of scanner
+       
+    }
+
+    public static void printLoginMessage()
+    {   
+   Scanner ss= new Scanner (System.in);
+      String username;
+    String password;
+     String firstName;
+     String lastName;
+//prompt user for details
+        System.out.println("Welcome to the login system!");
+        System.out.print("Enter your username: ");
+        username = ss.next();
+        System.out.print("Enter your password: ");
+        password= ss.next();
+        System.out.println("Enter your firstName");
+         firstName= ss.next();
+        System.out.println("Enter lastName");
+        lastName= ss.next();
        
     }
 }
+        
+         
         
       
    
         
     }
-}
+
   
            
         
